@@ -1,0 +1,14 @@
+{
+  "name": "sentrysafe-team-vault",
+  "version": "0.1.0",
+  "private": true,
+  "description": "SentrySafe Team Vault project infrastructure",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest --passWithNoTests"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "jest": "^30.0.0"
+  }
+}

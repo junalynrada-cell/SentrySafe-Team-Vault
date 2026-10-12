@@ -1,3 +1,4 @@
+
 {
   "name": "sentrysafe-team-vault",
   "version": "0.1.0",
@@ -5,7 +6,13 @@
   "description": "SentrySafe Team Vault project infrastructure",
   "scripts": {
     "lint": "eslint .",
-    "test": "jest --passWithNoTests"
+    "test": "jest --passWithNoTests",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:backend": "npm --prefix backend run build",
+    "build:frontend": "npm --prefix frontend run build",
+    "test:backend": "npm --prefix backend run test",
+    "migrate": "npm --prefix backend run migrate"
   },
   "devDependencies": {
     "eslint": "^9.0.0",
